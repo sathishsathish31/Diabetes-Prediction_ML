@@ -1,0 +1,69 @@
+/* styles.css */
+body {
+    background: linear-gradient(100deg, #00c9ff, #e974e9);
+    
+}
+
+header {
+    background-color: #ecea5a;
+    padding: 4px;
+    text-align: center;
+    color: rgb(1, 12, 2);
+    font-size: 1.0em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    min-height: 60vh;
+}
+
+.form-section {
+    background: rgba(154, 233, 81, 0.884);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    background-color: #f14fa0;
+    color: rgb(10, 0, 0);
+    border: none;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    border: 2px solid rgb(219, 5, 5);
+}
+
+button:hover {
+    background-color: #e60073;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f3f3f3;
+    border-left: 6px solid #f053a1;
+    border: 2px solid black;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #ffd6e7;
+    font-size: 0.9em;
+    color: #555;
+}

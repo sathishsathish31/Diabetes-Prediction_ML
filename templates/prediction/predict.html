@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Diabetic Prediction </title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <header>
+        <h1> 🩺 Diabetic Prediction System 👨‍⚕️ </h1>
+    </header>
+
+    <main>
+        <section class="form-section">
+            <h2>Enter Your Details ✏️</h2>
+            <form method="POST">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit">Predict</button>
+            </form>
+
+            {% if result %}
+                <div class="result">
+                    <h3> Result: {{ result }}</h3>
+                </div>
+            {% endif %}
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Diabetic Prediction | Built with Django & ML</p>
+    </footer>
+</body>
+</html>
