@@ -1,8 +1,3 @@
-Absolutely, Sathees! Here's a complete and professional README.md for your Diabetes Prediction Using Machine Learning project using Django and KNN. You can copy this and paste it into a README.md file in your project root.
-
-
----
-
 # 🧠 Diabetes Prediction Using Machine Learning (KNN)
 
 A web-based machine learning application built using **Django** that predicts the likelihood of a person having **Diabetes** based on medical attributes. The model is trained using the **K-Nearest Neighbors (KNN)** algorithm.
@@ -100,7 +95,16 @@ Vercel (for static UI)
 
 Need help deploying? Just ask!
 
+---
+## 📓 Jupyter Notebook
 
+The complete process of data preprocessing, EDA (exploratory data analysis), and training the KNN model is documented in the Jupyter Notebook.
+
+📁 File included: [https://github.com/sathishsathish31/Diabetes-Prediction_ML/blob/main/knn_model.ipynb]
+
+### Contents:
+- 🔍 Data Cleaning
+- 📊 Visualizations (Seaborn & Matplotlib
 ---
 
 ## 📈 Visualization Examples
@@ -112,9 +116,6 @@ The project includes data visualization using Seaborn and Matplotlib such as:
 - Feature-wise distribution (e.g., Glucose vs Outcome)
   
 These plots are rendered inside Django views or as static images in templates
-
-
-📁 File included: DiabetesDashboard.pbix
 
 
 ---
