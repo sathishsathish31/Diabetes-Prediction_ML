@@ -8,7 +8,10 @@ A web-based machine learning application built using **Django** that predicts th
 
 ## 🚀 Demo
 
-![App UI Screenshot](https://your-screenshot-link-here-if-any)
+![App UI Screenshot]
+([https://github.com/sathishsathish31/Diabetes-Prediction_ML/blob/main/Screenshot%202025-06-22%20225235.png]),
+([https://github.com/sathishsathish31/Diabetes-Prediction_ML/blob/main/Screenshot%202025-06-22%20225308.png])
+
 
 **Live Demo:** *Coming Soon or Host Locally*
 
